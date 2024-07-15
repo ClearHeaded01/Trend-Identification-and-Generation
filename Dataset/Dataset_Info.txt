@@ -1,1 +1,12 @@
 # What Datasets we are using here
+
+1. trend_tokenized_dataset.pkl
+- This dataset contains recent trends data
+- From this data, trends have been identified
+- These trends have been tokenized for further input processes
+
+2. Fashion_dataset_token.pkl
+- This dataset contains Fashion store data (Inventory for Myntra)
+- From this data, inventory data have been loaded as image
+- These images are stored as embeddings
+- For trends to impact current choices from inventory, this data is also tokenised and compared.
