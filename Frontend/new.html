@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Myntra Functional Clone</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo_container">
+        <a href="/index.html"
+          ><img
+            class="myntra_home"
+            src="images/myntra_logo.webp"
+            alt="Myntra Home"
+        /></a>
+      </div>
+      <nav class="nav_bar">
+        <a href="/men.html">Men</a>
+        <a href="/women.html">Women</a>
+        <a href="/kids.html">Kids</a>
+        <a href="/home.html">Home & Living</a>
+        <a href="/beauty.html">Beauty</a>
+        <a href="/new.html">Trends <sup>New</sup></a>
+      </nav>
+      <div class="search_bar">
+        <span class="material-symbols-outlined search_icon">search</span>
+        <input
+          class="search_input"
+          placeholder="Search for products, brands and more"
+        />
+      </div>
+      <div class="action_bar">
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">person</span>
+          <span class="action_name">Profile</span>
+        </div>
+
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">favorite</span>
+          <span class="action_name">Wishlist</span>
+        </div>
+
+        <a class="action_container" href="pages/bag.html">
+          <span class="material-symbols-outlined action_icon"
+            >shopping_bag</span
+          >
+          <span class="action_name">Bag</span>
+          <span class="bag-item-count">0</span>
+        </a>
+      </div>
+    </header>
+    <main>
+        <div class="filters">
+            <h2>Filters</h2>
+            <div>
+                <label><input type="checkbox"> Men</label>
+                <label><input type="checkbox"> Women</label>
+                <label><input type="checkbox"> Boys</label>
+                <label><input type="checkbox"> Girls</label>
+            </div>
+            <div>
+                <h3>Brand</h3>
+                <label><input type="checkbox"> Roadster</label>
+                <label><input type="checkbox"> Flying Machine</label>
+                <label><input type="checkbox"> SPYKAR</label>
+                <label><input type="checkbox"> V-Mart</label>
+                <label><input type="checkbox"> Levis</label>
+                <label><input type="checkbox"> Pepe Jeans</label>
+                <label><input type="checkbox"> WROGN</label>
+                <label><input type="checkbox"> BAESD</label>
+                <div id="more-brands" class="hidden">
+                  <label><input type="checkbox"> US Polo Assn</label>
+                  <label><input type="checkbox"> Tommy Hilfiger</label>
+                  <label><input type="checkbox"> Wrangler</label>
+                  <label><input type="checkbox"> Lee</label>
+                  <label><input type="checkbox"> Calvin Klein</label>
+            </div>
+               
+              <a href="#" id="show-more">Show More</a>
+            </div>
+            <div>
+              <h3>Categories</h3>
+              <label><input type="checkbox"> Western Wear</label>
+              <label><input type="checkbox"> Sports</label>
+              <label><input type="checkbox"> Beauty</label>
+              <label><input type="checkbox"> Footwear</label>
+          </div>
+          <div>
+            <h3>Themes</h3>
+            <label><input type="checkbox"> Bollywood</label>
+            <label><input type="checkbox"> Retro</label>
+            <label><input type="checkbox"> Boho</label>
+            <label><input type="checkbox"> Hollywood</label>
+            <label><input type="checkbox"> K pop</label>
+            <label><input type="checkbox"> Anime</label>
+            <label><input type="checkbox"> Festive</label>
+            <label><input type="checkbox"> Beach</label>
+        </div>
+        
+        </div>
+    
+        
+      
+      <div class="items-container"></div>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="/men.html">Men</a>
+          <a href="/women.html">Women</a>
+          <a href="/kids.html">Kids</a>
+          <a href="/home.html">Home & Living</a>
+          <a href="/beauty.html">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="/men.html">Men</a>
+          <a href="/women.html">Women</a>
+          <a href="/kids.html">Kids</a>
+          <a href="/home.html">Home & Living</a>
+          <a href="/beauty.html">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="/men.html">Men</a>
+          <a href="/women.html">Women</a>
+          <a href="/kids.html">Kids</a>
+          <a href="/home.html">Home & Living</a>
+          <a href="/beauty.html">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+      </div>
+      <hr />
+
+      <div class="copyright">
+        © 2024 www.myntra.com. All rights reserved(sunfire sensei).
+      </div>
+    </footer>
+    <script src="data/items.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
