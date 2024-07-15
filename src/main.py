@@ -205,25 +205,3 @@ def downloadImage(url):
     return "uploaded_test_img.jpg"
 
 main()
-
-!pip install flask
-
-from flask import Flask, request, jsonify
-
-app = Flask(__name__)
-
-@app.route('/trends', methods=['POST'])
-def identify_trends_endpoint():
-    # Your trend identification code here
-    trend = top_trends['title_orig_tokenized']
-    print(trend)
-    pass
-
-@app.route('/recommendations', methods=['POST'])
-def recommend_styles_endpoint():
-    # Your trend recommendation code here
-
-    pass
-
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8080)
